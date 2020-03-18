@@ -1,6 +1,6 @@
 /* ----------------------------------------------- Variable ------------------------------------------- */
 
-this for accessing variable 
+//this for accessing variable 
 class There{
      int i = 7;
 
@@ -21,7 +21,7 @@ class ThisClass{
             System.out.println("Mother : i love my Daughter");
         }
         void Daughter(){
-            mother();
+           this.mother();
         }
 
 }
